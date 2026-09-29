@@ -2,7 +2,37 @@ h1{
     color: darkgreen;
 }
 
+h1::after{
+    content: "✅";
+    font-size: 20px;
+}
 
+h2::before{
+    content: "→";
+    color: blueviolet;
+    font-size: 50px;
+}
+
+.intro{
+    font-family: sans-serif;
+    text-transform:lowercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#subt{
+    color: darkorange;
+}
+
+#subt2{
+    color: aqua;
+}
 
 li:first-child{
     color: green;
@@ -11,4 +41,3 @@ li:first-child{
 li:last-child{
     color: red;
 }
-
